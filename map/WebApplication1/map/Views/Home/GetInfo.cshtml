@@ -1,0 +1,37 @@
+﻿@model WebApplication1.Controllers.InfoBuilder.InfoItem
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7">
+            <a asp-action="Index">назад</a>
+            <h1>@Model.Title</h1>
+        </div>
+        <div class="col-sm-3">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7 description">
+            @Html.Raw(Model.Text)
+            <h2>Вопросы по теме</h2>
+            <p>
+                @Html.Raw(Model.Questions)
+            </p>
+        </div>
+        <div class="col-sm-3">
+            <h3 class="text-right">Книги</h3>
+            <ul class="right-list">
+                @foreach (var book in Model.Books)
+                {
+                    <li>@Html.Raw(book)</li>
+                }
+            </ul>
+            <h3 class="text-right">Статьи</h3>
+            @Html.Raw(Model.Articles)
+
+            <h3 class="text-right">Ресурсы</h3>
+            @Html.Raw(Model.Resources)
+        </div>
+    </div>
+</div>

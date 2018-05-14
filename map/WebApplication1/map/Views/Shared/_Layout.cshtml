@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - map</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <style>
+        .preview {
+        }
+
+        body {
+        }
+
+        .col-sm-4 {
+            border-bottom: 1px solid #dddddd;
+            border-right: 1px solid #dddddd;
+            padding: 15px;
+            padding-left: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+
+        h1, h2, h3 {
+            text-transform: uppercase;
+        }
+
+        h1 {
+            color:#808080;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        h6 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+
+        .title {
+            color: #7d7d7d;
+        }
+
+        .description {
+            font-size:18px;
+            text-align:justify;
+        }
+
+        .right-list {
+            list-style-type: none;
+            text-align:right;
+            font-size:13px;
+            font-family:Verdana;
+        }
+
+            .right-list li {
+                padding-bottom: 10px;
+            }
+
+        a {
+            color:#0237ca;
+        }
+
+        .questions {
+            font-size: 15px;
+            padding-left:20px;
+        }
+
+
+        ol.left-list {
+            counter-reset: item;
+            margin-left: -38px;
+        }
+
+            ol.left-list > li {
+                counter-increment: item;
+                list-style: none inside;
+                margin: 12px 0;
+                overflow: hidden;
+                font-size: 16px !important;
+                line-height: 1;
+            }
+
+                ol.left-list > li:before {
+                    content: counter(item);
+                    margin-right: 5px;
+                    padding: 3px;
+                    display: block;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    border-radius: 50%;
+                    width: 22px;
+                    background: #88a7d2;
+                    color: #fff;
+                    text-align: center;
+                    font: 11px 'Lato', Helvetica, Arial, sans-serif;
+                    font-weight: 100;
+                    float: left;
+                }
+
+
+    </style>
+
+
+</head>
+<body>
+    <p></p>
+    <div class="text-center">
+        ПАМЯТКА ДЛЯ .NET WEB РАЗРАБОТЧИКА<br />
+        создано <a href="#">@@amarfut</a>'ом
+    </div>
+    <div class="text-center">
+        <img src="~/images/sss.png" />
+    </div>
+    <p></p>
+
+    @RenderBody()
+
+    <p>&nbsp;</p>
+
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿@model IEnumerable<WebApplication1.Controllers.PreviewBuilder.PreviewItem>
+
+<div class="container-fluid">
+    <div class="row">
+
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-4">
+                <h3 class="title">@item.Title </h3>
+                <div class="preview">
+                    @item.Text <a asp-controller="Home" asp-action="GetInfo" asp-route-path="@item.FileName">Читать</a>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>
