@@ -13131,11 +13131,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "F:\\map\\WebApplication1\\map\\map.csproj",
+      "projectUniqueName": "F:\\dotnetchecklist\\dotnetchecklist\\map\\WebApplication1\\map\\map.csproj",
       "projectName": "map",
-      "projectPath": "F:\\map\\WebApplication1\\map\\map.csproj",
+      "projectPath": "F:\\dotnetchecklist\\dotnetchecklist\\map\\WebApplication1\\map\\map.csproj",
       "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
-      "outputPath": "F:\\map\\WebApplication1\\map\\obj\\",
+      "outputPath": "F:\\dotnetchecklist\\dotnetchecklist\\map\\WebApplication1\\map\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

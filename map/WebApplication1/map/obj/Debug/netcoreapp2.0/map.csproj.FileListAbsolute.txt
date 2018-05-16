@@ -20,3 +20,14 @@ F:\map\WebApplication1\map\obj\Debug\netcoreapp2.0\map.AssemblyInfoInputs.cache
 F:\map\WebApplication1\map\obj\Debug\netcoreapp2.0\map.AssemblyInfo.cs
 F:\map\WebApplication1\map\obj\Debug\netcoreapp2.0\map.dll
 F:\map\WebApplication1\map\obj\Debug\netcoreapp2.0\map.pdb
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\bin\Debug\netcoreapp2.0\map.deps.json
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\bin\Debug\netcoreapp2.0\map.runtimeconfig.json
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\bin\Debug\netcoreapp2.0\map.runtimeconfig.dev.json
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\bin\Debug\netcoreapp2.0\map.dll
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\bin\Debug\netcoreapp2.0\map.pdb
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\obj\Debug\netcoreapp2.0\map.csprojResolveAssemblyReference.cache
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\obj\Debug\netcoreapp2.0\map.csproj.CoreCompileInputs.cache
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\obj\Debug\netcoreapp2.0\map.AssemblyInfoInputs.cache
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\obj\Debug\netcoreapp2.0\map.AssemblyInfo.cs
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\obj\Debug\netcoreapp2.0\map.dll
+F:\dotnetchecklist\dotnetchecklist\map\WebApplication1\map\obj\Debug\netcoreapp2.0\map.pdb
